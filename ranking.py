@@ -50,6 +50,5 @@ def mostrar_clasificacion():
     for i in tabla:
         t=tabla[i]
         lista.append([t["nombre"],t["PJ"],t["G"],t["E"],t["P"],t["GF"],t["GC"],t["PTS"]])
-    lista.sort(key=lambda i:i[7],reverse=True)
     for i in lista:
         print(i[0],i[1],i[2],i[3],i[4],i[5],i[6],i[7])
